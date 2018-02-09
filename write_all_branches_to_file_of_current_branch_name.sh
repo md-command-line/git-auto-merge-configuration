@@ -1,0 +1,3 @@
+# for each branch...
+
+currbranch=`git branch | grep \* | cut -c 3-`; rm $currbranch; for BRANCH in `git branch --list | cut -c 3-`; do echo $BRANCH >> "$currbranch.txt"; echo ;  done;
