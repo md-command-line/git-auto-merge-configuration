@@ -1,3 +1,6 @@
+# Not deployed and production ready.
+### Reason, not achieving current intent.
+
 # Installation/Usage
 ```bash
 git clone https://github.com/MichaelDimmitt/git-auto-merge-configuration.git;
