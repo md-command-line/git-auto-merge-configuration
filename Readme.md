@@ -6,7 +6,7 @@ git clone https://github.com/MichaelDimmitt/git-auto-merge-configuration.git;
 cd git-auto-merge-configuration;
 ```
 ```bash
-pathtofile=pwd; echo "alias automergeall='/.$($pathtofile)/write_all_branches_to_file_of_current_branch_name.sh'" >> ~/.bashrc; source ~/.bashrc;
+pathtofile=pwd; echo "alias automergeall='/.$($pathtofile)/setup_files/write_all_branches_to_file_of_current_branch_name.sh'" >> ~/.bashrc; source ~/.bashrc;
 ```
 #### next steps 
 1) cd (into a project with multiple branches.)
